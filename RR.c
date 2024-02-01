@@ -45,17 +45,18 @@ void roundRobin(int tasks, int machines) {
     }
 }
 
-int main() {
-    int tasks, machines;
 
-    printf("Enter the number of tasks: ");
+
+int main(){
+    int tasks, macines;
+
+    printf("Enter the number of tasks:");
     scanf("%d", &tasks);
 
-    printf("Enter the number of machines: ");
+    printf("Enter the number of machines:");
     scanf("%d", &machines);
 
     roundRobin(tasks, machines);
-
     return 0;
 }
 
